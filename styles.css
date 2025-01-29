@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5e8eb;
+color:#ddd;
+  font-family: 'Cabin', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  /* font-family: 'Braah One', serif; */
+  /* font-weight: 300; */
+  font-style: normal;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 70%;
+  /* background-color:#22252b; */
+border: 3px solid transparent;
+
+  /* background: #000; */
+  border: 1px solid #aaa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  font-size: 18px;
+  background-image: linear-gradient(
+  135deg,
+  rgba(#752e7c, 0.35),
+  rgba(#734a58, 0.1) 15%,
+  #1b2028 20%,
+  #1b2028 100%
+);
+box-shadow: 4px 4px 2px #22252b;
+
+}
+.image-section{
+    background-color: #22252b;
+}
+#profile-image {
+  max-width: 100%;
+}
+
+p {
+  /* color:white */
+}
+
+#name-container {
+  /* color:#fff; */
+  text-align: center;
+}
+
+.socials {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.3rem;
+  margin: 0;
+}
+
+.socials li {
+}
+
+.bio-section {
+    /* background-color:#dee2e0; */
+    color:#22252b
+}
+
+.bottom-container {
+  padding-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  /* background-color: #22252b; */
+}
+.bottom-texts {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  /* text-wrap: nowrap; */
+}
+
+@media only screen and (max-width: 520px) {
+  .container {
+    height: auto;
+  }
+
+  .card {
+    width: 90%;
+    flex-direction: column;
+    border: none;
+    border-radius: 0px;
+  }
+}

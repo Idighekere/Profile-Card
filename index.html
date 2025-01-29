@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idighekere Udo</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Braah+One&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+
+        <div class="card">
+
+            <div class="image-section">
+
+
+                <div>
+                    <img src="./assets/Idighekere Udo.jpeg" alt="" id="profile-image" data-testid="profilePicture">
+                </div>
+                <div id="name-container">
+                    <h2 data-testid="fullName">Idighekere Udo</h2>
+                    <h3 data-testid="jobTitle">Software Developer</h3>
+
+                    <ul class="socials">
+                        <li><a href="https://github.com/idighekere" data-testid="socialLinks"><iconify-icon icon="hugeicons:github-01" width="26" height="26" style="color: #ddd"></iconify-icon></a></li>
+                        <li><a href="https://linkedin.com/in/idighekere-udo" data-testid="socialLinks"><iconify-icon icon="hugeicons:linkedin-01" width="26" height="26" style="color: #ddd"></iconify-icon></a></li>
+                        <li><a href="https://twitter.com/idighekere" data-testid="socialLinks"><iconify-icon icon="hugeicons:twitter-square" width="26" height="26" style="color: #ddd"></iconify-icon></a></li>
+                        <!-- <li><a href="/"><iconify-icon icon="iconoir:github" width="26" height="26" style="color: black"></iconify-icon></a></li> -->
+
+
+                </div>
+                </ul>
+            </div>
+            <div class="bio-section">
+                <h3 style="text-align: center;background-color: #22252b;color:#ddd;padding:2px;margin-bottom: 5px;">ABOUT ME</h3>
+                <p class="bio" data-testid="shortBio">
+                    I am a  frontend web and mobile developer, currently pursuing a Bachelor's degree in Computer Engineering.<br/><br/>
+
+                    With a focus on creating responsive, accessible, and engaging web and mobile applications using modern web technologies,
+                    including HTML, CSS, Tailwind CSS, JavaScript, TypeScript React, RemixJs, Next.js and React Native.<br/><br/>
+
+                    My expertise in frontend development is complemented by experience in managing and troubleshooting WordPress sites,
+                    enabling me to provide end-to-end support for web projects.
+                </p>
+
+                <div class="bottom-container">
+
+                    <p class="bottom-texts" data-testid="emailAddress"><iconify-icon icon="hugeicons:mail-at-sign-01" width="20" height="20" style="color: #22252b"></iconify-icon><strong>Email Address: </strong>idighekereudo@gmal.com</p>
+                    <p class="bottom-texts" data-testid="currentLocation"><iconify-icon icon="hugeicons:location-09" width="20" height="20" style="color: #22252b"></iconify-icon><strong>Current Location:</strong> Uyo, Nigeria</p>
+                    <p class="bottom-texts"><iconify-icon icon="hugeicons:time-04" width="20" height="20" style="color: #22252b"></iconify-icon><strong>Current Time:</strong> <span id="day"></span> <span id="time" data-testid="currentTimeUTC"></span></p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
